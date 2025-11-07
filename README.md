@@ -64,9 +64,8 @@ Với vai trò quản trị (**Admin**):
 
 ---
 
-## 🚀 3. Hình ảnh giao diện (demo)
+## 🚀 3. Hình ảnh giao diện 
 
-> *(Thay thế bằng ảnh thật nếu có)*
 > ✅ Trang đăng nhập / đăng ký
 > ✅ Trang xem xe
 > ✅ Trang chi tiết xe
@@ -90,7 +89,7 @@ Với vai trò quản trị (**Admin**):
 Giải nén source đặt vào:
 
 ```
-C:/xampp/htdocs/showroom/
+C:/xampp/htdocs/car_showroom/
 ```
 
 ### ✅ 4.3. Tạo database
@@ -109,7 +108,7 @@ Chỉnh file `config.php`:
 <?php
 $host = "localhost";
 $user = "root";
-$password = "";
+$password = "Thanhno2412@#";
 $dbname = "showroom_db";
 
 $conn = new mysqli($host, $user, $password, $dbname);
@@ -125,14 +124,14 @@ if($conn->connect_error){
 Truy cập:
 
 ```
-http://localhost/showroom/index.php
+http://localhost/car_showroom/index.php
 ```
 
 ---
 
 ## 🔐 5. Tài khoản mặc định
 
-| Loại  | Email                                     | Mật khẩu |
+| Tên đăng nhập  | Email                                     | Mật khẩu |
 | ----- | ----------------------------------------- | -------- |
 | Admin | [admin@gmail.com](mailto:admin@gmail.com) | 123456   |
 | User  | [user@gmail.com](mailto:user@gmail.com)   | 123456   |
@@ -180,12 +179,13 @@ http://localhost/showroom/index.php
 
 ## 🧑‍💻 8. Thành viên thực hiện
 
-* Tên sinh viên: …
-* Lớp: …
-* GVHD: …
+* Tên sinh viên: Nguyễn Xuân Thành
+* Lớp: CNTT17-05
+* GVHD: TS.Lê Tuấn Anh
 
 ---
 
 ## ❤️ 9. Lời cảm ơn
 
 Cảm ơn thầy/cô đã hỗ trợ trong quá trình thực hiện đồ án. Hệ thống có thể mở rộng thêm như gửi email thông báo, thanh toán online, chatbot tư vấn…
+
